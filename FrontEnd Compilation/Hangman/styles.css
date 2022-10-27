@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(112, 185, 228);
+    padding-top: 70px;
+}
+
+.contenu {
+    background-color: rgb(134, 205, 246);
+    height: 400px;
+}
+
+#lose {
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+
+.affich {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

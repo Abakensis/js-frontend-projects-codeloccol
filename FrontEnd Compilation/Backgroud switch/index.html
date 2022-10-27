@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Génerateur de Background</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<!-- on donne un id au body pour pouvoir modifier le background avec un document.getElementById -->
+
+<body id="gradient">
+    <h1>Génerateur de Background</h1>
+    <h2> selectionnez vos couleurs </h2>
+    <!-- Les selecteurs pour choisir les couleurs -->
+    <input class="color1" type="color" name="color1" aria-label="couleur1" value="#FFFF00" />
+    <input class="color2" type="color" name="color2" aria-label="couleur2" value="#FF0000" />
+    <!-- h3 le texte copiable pour selectionner le code du dégradé -->
+
+    <!-- la div random qui va nous permettre de generer des couleurs alléatoires -->
+    <div class="random">
+        <!-- Le boutton couleurs alleatoires -->
+        <button class="random-button">Couleur aléatoire</button>
+    </div>
+    <h2> code du background actuel</h2>
+    <h6></h6>
+    <h3></h3>
+    <script type="text/javascript" src="rouages.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoKaci</title>
+    <!-- link du CSS -->
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <!-- création de la div contenant l'horloge -->
+    <div class="clock">
+        <!-- dessin des axes qui vont servir à lire l'heure  -->
+        <div class="axes-principaux">
+
+            <!-- création des quatres axes secondaires -->
+            <div class="marking marking-un"> </div>
+            <div class="marking  marking-deux"> </div>
+            <div class="marking  marking-trois"> </div>
+            <div class="marking  marking-quatre"> </div>
+        </div>
+        <!-- Fond nwar du centre  ( pour masquer les axes )-->
+        <div class="milieu">
+            <!--Axe de rotation des aiguilles ( point blanc central )-->
+            <span class="dot"></span>
+            <!-- Aiguilles -->
+            <span class="heure"></span>
+            <span class="minute"></span>
+            <span class="seconde"></span>
+
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+        <!-- link du JS -->
+        <script src="rouages.js">
+        </script>
+</body>
+
+</html>

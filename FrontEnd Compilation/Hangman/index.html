@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <Link rel="stylesheet" href="styles.css"></Link>
+    <title>hangman</title>
+    
+</head>
+
+<body>
+    <div class="container text-center text-white ">
+        <div class="h3">Press any alphabet letter below to guess the word ans-d  make sure to not HANG our MAN</div>
+        <div class="d-flex mt-5 contenu border border-light border-2">
+            <div class="col-6  border  border-light border-2">
+                <div id="lose" class="hide ">You Lose</div>
+                <canvas id="canvas">
+                   
+                </canvas>
+            </div>
+            <div class="container border  border-light border-2  ">
+                <div class="row">
+                 <div class="bg h4 mt-1 p-1 " style="background-color:rgb(32, 32, 146)"><h6>Press A-Z to start playing</h6></div>
+                <div class="bg h4 mt-1 p-1 " style="background-color:rgb(32, 32, 146)"><h6>Lettres valides : <span class="wordvalid"> 0</span></h6></div>
+                <div class="bg h4 mt-1 p-1 " style="background-color:rgb(32, 32, 146)"><h6>Mot à trouvéer : <span class="charfind"></span></h6></div>
+                <div class="bg h4 mt-1 p-1 " style="background-color:rgb(32, 32, 146)"><h6>Essais restants : <span class="chance">10</span></h6></div>
+                <div class="bg h4 mt-1 p-1 " style="background-color:rgb(32, 32, 146)"><h6>Lttres deja utilisées : <span class="charclick"></span></h6></div>   
+                </div>
+                
+
+            </div>
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+   
+</body>
+</html>
